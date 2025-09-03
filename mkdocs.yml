@@ -1,15 +1,40 @@
-site_name: 趣味の数学・物理学・コンピュータサイエンス
+site_name: 趣味の数学・物理学・工学
 site_url: https://rewaishi.github.io/math-physics/
 theme:
   name: material
   features:
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
 nav:
   - Home: index.md
-  - 数学: mathematics/index.md
-  - 物理: physics/index.md
-  - コンピュータサイエンス: computer/index.md
+  - 数学:
+    - 目次: mathematics/index.md
+    - 線形代数:
+      - 目次: mathematics/linear-algebra/index.md
+    - 微積分:
+      - 目次: mathematics/calculus/index.md
+    - 解析学:
+      - 目次: mathematics/analysis/index.md
+  - 物理:
+    - 目次: physics/index.md
+    - 力学（Mechanics）:
+      - 目次: physics/mechanics/index.md
+    - 電磁気学（Electromagnetism）:
+      - 目次: physics/electromagnetism/index.md
+    - 熱力学（Thermodynamics）:
+      - 目次: physics/thermodynamics/index.md
+    - 統計力学（Statistical Mechanics）: 
+      - 目次: physics/statmech/index.md
+    - 量子力学（Quantum Mechanics）:
+      - 目次: physics/quantum/index.md
+    - 相対性理論（Relativity）:
+      - 目次: physics/relativity/index.md
+  - 工学:
+    - 目次: engineering/index.md
+    - 情報工学（Computer Science）:
+      - 目次: engineering/cs/index.md
 markdown_extensions:
   - admonition
   - footnotes
