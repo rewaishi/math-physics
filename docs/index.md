@@ -1,17 +1,41 @@
-# Welcome to MkDocs
+# 趣味の数学・物理学・コンピュータサイエンス
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## このサイトの読み方
 
-## Commands
+作成中
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+---
 
-## Project layout
+## はじめかた（クイックスタート）
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+作成中
+
+---
+
+## 目次
+
+作成中
+
+## よく使う記法
+
+* 実数体：$\mathbb{R}$、複素数体：$\mathbb{C}$、内積：$\langle x,y \rangle$
+* ノルム：$\|x\|=\sqrt{\langle x,x \rangle}$、ベクトルは太字 $\mathbf{x}$
+* 物理定数：$k_B$（ボルツマン定数）、$\hbar$（ディラック定数）など
+
+---
+
+## ライセンスと再利用
+
+* **CC BY 4.0**（出典表記のうえ、改変・再配布可）
+
+---
+
+## 更新履歴（Changelog）
+
+* **2025-09-03**: サイト雛形公開（この `index.md` を初期化）
+
+---
+
+## お問い合わせ / フィードバック
+
+* 誤植・改善提案があれば
