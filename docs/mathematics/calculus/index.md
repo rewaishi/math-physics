@@ -19,4 +19,4 @@
 ## 目次
 
 * [微積分の導入](introduction.md)
-* [極限](limtis.md)
+* [極限](limits.md)
